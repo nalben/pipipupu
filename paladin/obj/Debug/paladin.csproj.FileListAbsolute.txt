@@ -1,0 +1,17 @@
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.csproj.AssemblyReference.cache
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\MainWindow.g.cs
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\App.g.cs
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin_MarkupCompile.cache
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin_MarkupCompile.lref
+C:\Users\Student 2\source\repos\paladin\paladin\bin\Debug\paladin.exe.config
+C:\Users\Student 2\source\repos\paladin\paladin\bin\Debug\paladin.exe
+C:\Users\Student 2\source\repos\paladin\paladin\bin\Debug\paladin.pdb
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\MainWindow.baml
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.g.resources
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.Properties.Resources.resources
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.csproj.GenerateResource.cache
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.csproj.CoreCompileInputs.cache
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.exe
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\paladin.pdb
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\AuthWindow.g.cs
+C:\Users\Student 2\source\repos\paladin\paladin\obj\Debug\AuthWindow.baml
