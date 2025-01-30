@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\potor\source\repos\paladin\obj\Debug\
+C:\Users\potor\source\repos\paladin\obj\Release\
 paladin
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\potor\source\repos\paladin\App.xaml
 278393957
 
-9-1484707051
+91943422657
 13-1310406943
 AuthWindow.xaml;MainWindow.xaml;
 

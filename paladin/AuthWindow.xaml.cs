@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using paladin.Logic;
 
 namespace paladin
 {
@@ -19,9 +20,25 @@ namespace paladin
     /// </summary>
     public partial class AuthWindow : Window
     {
+        AuthLogic authLogic = new AuthLogic();
+
         public AuthWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Clock(object sender, RoutedEventArgs e)
+        {
+            string pass = tbxP.Text;
+            string login = btxL.Text;
+
+            if (authLogic.AuthService(login, pass))
+            {
+                AuthWindow authWindow = new AuthWindow();
+                authWindow.Show();
+            }
+
+            else MessageBox.Show("Ошибка");
         }
     }
 }

@@ -9,9 +9,12 @@ namespace paladin.Model
     public  class User
     {
         public string Login { get; set; }
+
         public string Pass { get; set; }
+
         public User(string login, string pass)
-        { Login = login;
+        { 
+            Login = login;
             Pass = pass;
         }
     }

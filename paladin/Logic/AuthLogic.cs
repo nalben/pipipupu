@@ -7,24 +7,28 @@ using paladin.Model;
 
 namespace paladin.Logic
 {
-    public class AuthService
+    public class AuthLogic
     { 
         private List<User> _users;
-        public AuthService() { _users = new List<User>()
+
+        public AuthLogic() 
+        { 
+            _users = new List<User>()
         {
             new User("Login", "Pass") 
         };
     }
-        public bool CheckData(string login, string pass)
+        public bool AuthService(string login, string pass)
 
         { 
             var user = _users.FirstOrDefault(u => u.Login == login && u.Pass == pass);
-            if (user != null && user.Pass == pass)
 
+            if (user != null && user.Pass == pass && user.Login == login)
             { 
             return true;
             }
-            return false;
+            else
+                return false;
         }
         
 
