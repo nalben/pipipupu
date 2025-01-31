@@ -29,7 +29,7 @@ namespace paladin
 
         private void Button_Clock(object sender, RoutedEventArgs e)
         {
-            string pass = tbxP.Text;
+            string pass = btxP.Text;
             string login = btxL.Text;
 
             if (authLogic.AuthService(login, pass))

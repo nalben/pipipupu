@@ -19,8 +19,8 @@
             <ColumnDefinition Width="200*"></ColumnDefinition>
             <ColumnDefinition Width="125*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="tbxP"   Grid.Column="1" Grid.Row="2" Text="login"></TextBox>
-        <TextBox x:Name="btxL"   Grid.Column="1" Grid.Row="3" Text="password"></TextBox>
+        <TextBox x:Name="btxL"   Grid.Column="1" Grid.Row="2" Text="login"></TextBox>
+        <TextBox x:Name="btxP"   Grid.Column="1" Grid.Row="3" Text="password"></TextBox>
         <Button Grid.Column="1" Grid.Row="4" Content="вход"></Button>
         <Image Source="resources/krutoikot.jpg" Width="150" Height="150" Grid.Column="1" Grid.Row="1"></Image>
         
