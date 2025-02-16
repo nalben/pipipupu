@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Student 2\\source\\repos\\paladin\\",
+  "WorkspaceRootPath": "C:\\Users\\potor\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\logic\\authlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\logic\\authlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\logic\\authlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|c:\\users\\student 2\\source\\repos\\paladin\\paladin\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|C:\\Users\\potor\\source\\repos\\paladin\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412BCF79-6F39-4277-A3D1-FB605C3DCE9A}|paladin\\paladin.csproj|solutionrelative:paladin\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AuthLogic.cs",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\Logic\\AuthLogic.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\Logic\\AuthLogic.cs",
               "RelativeDocumentMoniker": "paladin\\Logic\\AuthLogic.cs",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\Logic\\AuthLogic.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\Logic\\AuthLogic.cs",
               "RelativeToolTip": "paladin\\Logic\\AuthLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T11:38:41.485Z",
               "EditorCaption": ""
@@ -53,64 +53,59 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\Model\\User.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\Model\\User.cs",
               "RelativeDocumentMoniker": "paladin\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\Model\\User.cs",
               "RelativeToolTip": "paladin\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T11:38:12.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T11:38:12.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\AuthWindow.xaml.cs",
+              "RelativeDocumentMoniker": "paladin\\AuthWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\AuthWindow.xaml.cs",
+              "RelativeToolTip": "paladin\\AuthWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T13:25:30.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\AuthWindow.xaml.cs",
-              "RelativeDocumentMoniker": "paladin\\AuthWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\AuthWindow.xaml.cs",
-              "RelativeToolTip": "paladin\\AuthWindow.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T13:25:30.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AuthWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\AuthWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\AuthWindow.xaml",
               "RelativeDocumentMoniker": "paladin\\AuthWindow.xaml",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\AuthWindow.xaml",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\AuthWindow.xaml",
               "RelativeToolTip": "paladin\\AuthWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-17T13:09:05.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T13:09:05.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "paladin\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\MainWindow.xaml",
               "RelativeToolTip": "paladin\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-13T13:24:01.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:24:01.388Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\paladin\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "paladin\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Student 2\\source\\repos\\paladin\\paladin\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\paladin\\MainWindow.xaml.cs",
               "RelativeToolTip": "paladin\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:24:00.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:24:00.72Z"
             }
           ]
         }

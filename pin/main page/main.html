@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pin</title>
+    <link rel="shortcut icon" href="img\pin_icon.png" />
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="masonry.js"></script>
+    <link rel="stylesheet" href="masonary.js">
+</head>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> <!-- Подключение Masonry -->
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    // Функция для вычисления и установки количества колонок в зависимости от ширины экрана
+    function updateColumns() {
+        const container = document.querySelector('.cards_block');
+        const width = window.innerWidth;
+        let columnsCount;
+    
+        // Пример логики для расчета количества колонок на основе ширины экрана
+        if (width <= 841) {
+            columnsCount = 2;
+        } else if (width <= 1118) {
+            columnsCount = 3;
+        } else if (width <= 1395) {
+            columnsCount = 4;
+        } else if (width <= 1672) {
+            columnsCount = 5;
+        } else if (width <= 1949) {
+            columnsCount = 6;
+        } else if (width <= 2226) {
+            columnsCount = 7;
+        } else if (width <= 2503) {
+            columnsCount = 8;
+        } else if (width <= 2780) {
+            columnsCount = 9;
+        } else if (width <= 3057) {
+            columnsCount = 10;
+        } else if (width <= 3334) {
+            columnsCount = 11;
+        } else if (width <= 3611) {
+            columnsCount = 12;
+        } else if (width <= 3888) {
+            columnsCount = 13;
+        } else if (width <= 4165) {
+            columnsCount = 14;
+        } else if (width <= 4442) {
+            columnsCount = 15;
+        } else if (width <= 4720) {
+            columnsCount = 16;
+        } else if (width <= 4997) {
+            columnsCount = 17;
+        } else if (width <= 5274) {
+            columnsCount = 18;
+        } else if (width <= 5551) {
+            columnsCount = 19;
+        } else if (width <= 5828) {
+            columnsCount = 20;
+        } else if (width <= 6105) {
+            columnsCount = 21;
+        } else if (width <= 6382) {
+            columnsCount = 22;
+        } else if (width <= 6660) {
+            columnsCount = 23;
+        } else if (width <= 6937) {
+            columnsCount = 24;
+        } else {
+            columnsCount = 25; // по умолчанию для самых широких экранов
+        }
+    
+        // Устанавливаем количество колонок через CSS
+        container.style.gridTemplateColumns = `repeat(${columnsCount}, 1fr)`;
+        container.style.gap = "15px"; // Отступы между элементами
+    }
+    
+// Функция для настройки Masonry и ширины карточек
+function updateMasonryLayout() {
+    const container = document.querySelector('.cards_block');
+    const cards = document.querySelectorAll('.card');
+    const screenWidth = window.innerWidth;
+
+    // Увеличиваем базовую ширину карточек на четверть
+    const minCardWidth = 200 * 1.25; // Минимальная ширина карточки увеличена на 25%
+    const columnsCount = Math.max(1, Math.floor(screenWidth / minCardWidth));
+    const columnWidth = screenWidth / columnsCount; // Ширина одной колонки
+
+    // Устанавливаем ширину каждой карточки
+    cards.forEach((card) => {
+        card.style.width = `${columnWidth - 15}px`; // Учитываем отступы между карточками
+    });
+
+    // Обновляем Masonry
+    new Masonry(container, {
+        itemSelector: '.card',
+        columnWidth: columnWidth,
+        gutter: 15, // Отступы между карточками
+        percentPosition: false
+    });
+}
+
+// Вызываем функцию при загрузке страницы и изменении размера окна
+window.addEventListener('load', updateMasonryLayout);
+window.addEventListener('resize', updateMasonryLayout);
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <div class="site_con">
+        <div class="left_menu">
+            <div class="menu_item main_page"><a href="main.html"><img src="img/pin_icon.png" alt=""></a></div>
+            <div class=" menu_item create_new"><a href="create.html"><img src="img/plus_icon.png" alt=""></a></div>
+            <div class="menu_item settings"><a href=" "><img src="img/settings_icon.png" alt=""></a></div>
+        </div>
+
+
+
+
+        <div class="main_page_con">
+
+
+
+
+            <div class="top_menu">
+                <div class="search_panel">
+                    <img src="img/search_icon.png" alt="">
+                    <input class="search" type="search" placeholder="Поиск по запросу">
+                </div>
+
+
+
+                <div class="profile">
+                    
+                    <div class="profile_button"><img id="prof_pic" src="img/profile_pic.png" alt=""></div>
+                    <div class="profile_arrow"><img id="prof_arrow" src="img/down_arrow_icon.png" alt=""></div>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="cards_block">
+
+
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/profile_pic.png" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ди.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/Ди3.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_con">
+                        <img src="img/ДИ4.jpg" alt="">
+                        <div class="author">
+                            <div class="author_icon">
+                                <img src="img/profile_pic.png" alt="">
+                                <a href="">люблю Диночку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>
