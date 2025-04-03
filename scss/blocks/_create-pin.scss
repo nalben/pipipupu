@@ -1,0 +1,118 @@
+.create-pin_con{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.create-new_text{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(213, 213, 213);
+    font-family: "PT Sans Bold", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+.create-pin-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+    align-items: center;
+}
+@media (max-width: 1150px) {
+    .create-pin-menu {
+        flex-direction: column;
+    }
+}
+
+.input_file{
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.label_image{
+    display: block;
+    width: 375px;
+    height: 450px;
+    border-radius: 20px;
+    border: 2px dashed rgb(213, 213, 213);
+    background-color: rgb(232, 231, 225);
+}
+.label_discription{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.label_disc_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+    font-weight: 600;
+}
+.lebel_disc_1_pic img{
+    width: 40px;
+}
+.label_disc_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.label_disc_2_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form_item-con{
+    margin-left: 54px;
+}
+@media (max-width: 1150px) {
+    .form_item-con{
+        margin-left: 0px;
+    }
+}
+.form_item-con textarea{
+    max-width: 576px;
+    min-width: 576px;
+    max-height: 150px;
+    min-height: 72px;
+}
+
+.create-pin-input{
+    width: 576px;
+    height:72px;
+    font-size: 24px;
+}
+
+.publish-btn{
+    margin: 14px 14px 14px 0px;
+}
+.publish-btn button{
+width: 140px;
+height: 44px;
+border-radius: 20px;
+background-color: rgb(241, 21, 169);
+color: white;
+font-size: 16px;
+font-weight: 600;
+}
+.create-pin-text{
+    padding: 25px 0px 25px 16px;
+}
+.image_container img{
+    width: 375px;
+    border-radius: 20px;
+    max-height: 1000px;
+}

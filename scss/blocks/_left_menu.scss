@@ -1,0 +1,39 @@
+.left_menu{
+    display: flex;
+    flex-direction: column;
+    max-width: 72px;
+    height: 100vh;
+    gap: 24px;
+    border-right: 1px solid rgb(213, 213, 213);
+    position: fixed;
+    
+}
+.left_menu img{
+    max-width: 20px;
+    max-height: 20px;
+
+}
+.left_menu a {
+    max-width: 20px;
+    max-height: 20px;
+    overflow-y: hidden;  
+}
+
+.menu_item{
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+}
+.menu_item:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
+.menu_item:first-child{
+    margin-top: 16px;
+    border-radius: 100px; 
+}

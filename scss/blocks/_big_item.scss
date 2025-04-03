@@ -1,0 +1,179 @@
+
+.arrow_back_con{
+width: 80px;
+
+display: flex;
+
+}
+.arrow_back{
+    margin-left: auto;
+    margin-right: 29px;
+    margin-top: 20px;
+}
+.arrow_back img{
+    width: 24px;
+    margin-left: 0px;
+}
+.arrow_wrap{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.item_big_card_con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 17px;
+}
+
+.image_con{
+width: 1016px;
+display: flex;
+}
+
+
+
+.big_card{
+    width: 508px;
+    border-radius: 28px 0px 0px 28px;
+
+}
+.big_card img{
+    width: 100%;
+    display: block;
+    pointer-events: all;
+}
+
+
+
+.right_image_menu{
+    width: 508px;
+
+    border-radius: 0px 28px 28px 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(193, 193, 193);
+    border-left: 0px;
+}
+.interaction_menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-right: 16px;
+    position: relative;
+}
+.interaction_menu img{
+    width: 20px;
+}
+.int_icons{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int_icons:hover{
+    border-radius: 20px;
+    background-color: rgb(220, 220, 220);
+}
+.like_count{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-weight: 600;
+}
+
+.add_to_folder{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+
+}
+
+.button_save{
+    margin-left: 24px;
+}
+.button_save button{
+width: 112px;
+height: 48px;
+border-radius: 16px;
+background-color: rgb(241, 21, 169);
+color: white;
+font-size: 16px;
+font-weight: 600;
+}
+
+.choose_folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.title_image{
+    font-size: 28px;
+    word-break: normal;
+    width: 508px;
+    height: auto;
+    
+}
+.title_image p{
+    font-weight: 600;
+}
+
+.marl_img_menu{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+.onclick{
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1300px) {
+
+
+    .image_con{
+        width: auto;
+        flex-direction: column;
+        display: block;
+        align-items: center;
+        
+    }
+    .big_card{
+        border-radius: 50px 50px 0px 0px;
+        height: auto;
+    }
+    .right_image_menu{
+
+        border-radius: 0px 0px 50px 50px;
+        height: auto;
+    }
+    
+}

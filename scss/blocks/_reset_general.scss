@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;    
+
+
+}
+/* https://fonts.google.com/selection/embed */
+
+img{
+    pointer-events: none
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.site_con{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    outline: none;
+    border: none
+}
+.main_page_con{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 72px;
+
+}
+
+
+

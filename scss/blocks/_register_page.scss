@@ -1,0 +1,141 @@
+.reg_log_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.register_con{
+
+    width: 500px;
+    // background-color: aqua;
+    // margin-top: 40px;
+
+}
+.login_con{
+
+    width: 500px;
+    // background-color: red;
+    margin-top: 35px;
+
+}
+
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.welcome img{
+    width: 35px;
+}
+.welcome h1{
+    color: rgb(60, 60, 60);
+    font-weight:200;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.welcome h4{
+    color: rgb(57, 57, 57);
+}
+.h4_con_reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_line{
+    border-radius: 15px;
+    border: rgb(180, 180, 180) solid 2px; 
+    height: 40px;
+    width: 300px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    outline-color: rgb(162, 162, 255);
+}
+.error {
+    border: 2px solid red;
+}
+
+
+.input_line:hover{
+    border: rgb(120, 120, 120) solid 2px; 
+}
+.error:hover {
+    border: 2px solid red;
+}
+
+
+.input_line::placeholder{
+    // padding-left: 10px;
+    font-size: 16px;
+}
+.register_form h4{
+    padding-left: 10px;
+}
+
+
+.next_reg{
+    border-radius: 100px;
+    height: 40px;
+    width: 319px;
+    margin-top: 15px;
+    background-color: rgb(241, 21, 169);
+    color: white;
+    font-size: 16px;
+}
+.next_reg:hover{
+    background-color: rgb(177, 13, 122);
+}
+
+.next_reg:active{
+    background-color: rgb(61, 0, 41);
+}
+
+h5{
+    color: rgb(57, 57, 57);
+    margin-top: 15px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login_page_top_menu{
+    left: 0;
+    margin-left: 0px;
+    position: relative;
+}
+#reg_page_main_page{
+    margin-left: 0px;
+    height: 100%;
+}
+.reg_img_logo{
+    margin-top: 16px;
+    margin-left: 16px;
+
+
+}
+.reg_img_logo img{
+    width: 48px;
+    margin-right: 16px;
+}
+#reg_page_search{
+    margin-left: 0px;
+}

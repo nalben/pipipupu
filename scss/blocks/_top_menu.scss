@@ -1,0 +1,78 @@
+.top_menu{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    margin-left: 1px;
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    left: 72px;
+    // width: 97%;
+    // box-sizing: border-box;
+}
+.search_panel{        
+    width: 95%;
+    margin: 16px;
+    margin-left: 24px;
+    margin-right: 8px;
+    height: 48px;
+    border-radius: 13px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+}
+.search_panel img{        
+    max-width: 16px;
+    margin: 16px;
+    margin-right: 8px;
+}
+.search_panel ::placeholder {
+    font-size: 16px;
+}
+.search_panel input {
+    height: 48px;
+    width: 100%;
+    outline: none; 
+}
+.search{
+    border: 0px;
+    background-color: transparent;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    margin-left: 0px;
+
+}
+.profile :hover {
+    background-color: #efefef;
+    border-radius: 10px;
+}
+
+#prof_pic{
+    max-width: 32px;
+    border-radius: 100px;
+}
+#prof_arrow{
+    max-width: 12px;
+}
+.profile_button{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
