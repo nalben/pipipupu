@@ -54,7 +54,18 @@
     font-family: "PT Sans", ;
     font-weight: 600;
     font-style: normal;
+    
 }
+.author_icon img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 #profile_con_scroll{
     padding: 0 calc(20px - (100vw - 100%)) 0 0;
 }
+
+

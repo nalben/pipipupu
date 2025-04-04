@@ -1,56 +1,40 @@
 <?php
-header('Content-Type: application/json'); // Указываем, что ответ будет в формате JSON
-
-require 'db.php'; // Подключаем базу данных
+header('Content-Type: application/json');
+require 'db.php';
 
 $response = ['success' => false, 'errors' => []];
 
-// Получаем данные из POST-запроса
 $login = trim($_POST['login1'] ?? '');
 $password = trim($_POST['password1'] ?? '');
 $username = trim($_POST['username1'] ?? '');
 
-// Проверяем логин
-if (!empty($login)) {
+// Проверка на пустые поля
+if (!$login || !$username) {
+    if (!$login) $response['errors']['login'] = true;
+    if (!$username) $response['errors']['username'] = true;
+} else {
+    // Проверка только логина на уникальность
     $stmt = $pdo->prepare("SELECT 1 FROM users WHERE login = ?");
     $stmt->execute([$login]);
     if ($stmt->rowCount() > 0) {
-        $response['errors']['login'] = true; // Логин уже занят
-    } else {
-        $response['errors']['login'] = false; // Логин уникален
+        $response['errors']['login'] = true;
     }
-} else {
-    $response['errors']['login'] = true; // Логин пустой
 }
 
-// Проверяем никнейм
-if (!empty($username)) {
-    $stmt = $pdo->prepare("SELECT 1 FROM users WHERE username = ?");
-    $stmt->execute([$username]);
-    if ($stmt->rowCount() > 0) {
-        $response['errors']['username'] = true; // Никнейм уже занят
-    } else {
-        $response['errors']['username'] = false; // Никнейм уникален
-    }
-} else {
-    $response['errors']['username'] = true; // Никнейм пустой
-}
-
-// Если нет ошибок, добавляем запись в базу данных
-if (empty(array_filter($response['errors']))) { // Проверяем, есть ли хоть одна ошибка
-    // Хэшируем пароль
+// Если ошибок нет, создаем пользователя
+if (empty($response['errors'])) {
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
     $stmt = $pdo->prepare("INSERT INTO users (login, password, username) VALUES (?, ?, ?)");
+    
     if ($stmt->execute([$login, $hashedPassword, $username])) {
         session_start();
-        $_SESSION['user_id'] = $pdo->lastInsertId(); // Сохраняем ID нового пользователя в сессии
+        $_SESSION['user_id'] = $pdo->lastInsertId();
         $_SESSION['username'] = $username;
-        $response['success'] = true; // Регистрация успешна
+        $response['success'] = true;
     } else {
-        $response['errors']['general'] = true; // Общая ошибка базы данных
+        $response['errors']['general'] = true;
     }
 }
 
-echo json_encode($response); // Возвращаем JSON-ответ
+echo json_encode($response);
 exit;

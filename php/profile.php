@@ -66,22 +66,109 @@ require 'db.php'
 
 
 
-                <div class="profile_card">
+                <?php
 
-                    <div class="profile_img"><img src="../img/standart_avatar.jpg" alt=""></div>
-                    <div class="user_name">NALBEN</div>
-                    <div class="follow">
-                        <div class="subscriptions"><i>1</i> подписка</div>
-                        <div class="subscribers"><i>12</i> подписчиков</div>
-                    </div>
-                    <button class="sub_button " type='submit' id='subscribe_btn'>Подписаться</button>
-                    <div class="if_own">
-                        <button class='sub_button'>Поделиться</button>
-                        <button class='sub_button'>Изменить профиль</button>
-                    </div>
-
-                </div>
+                $author_id = isset($_GET["user_id"]) ? intval($_GET["user_id"]) : 0;
+                $subscriber_id = $_SESSION["user_id"] ?? 0;
                 
+                // Получаем данные автора
+                $stmt = $pdo->prepare("SELECT username, avatar FROM users WHERE user_id = ?");
+                $stmt->execute([$author_id]);
+                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+                $username = $user["username"] ?? "Неизвестный";
+                
+                // Получаем аватар (если он существует)
+                $avatar = !empty($user["avatar"]) ? $user["avatar"] : "../img/standart_avatar.jpg";
+                
+                // Количество подписчиков
+                $stmt = $pdo->prepare("SELECT COUNT(*) FROM subscribers WHERE author_id = ?");
+                $stmt->execute([$author_id]);
+                $subscribersCount = $stmt->fetchColumn();
+                
+                // Количество подписок пользователя (на кого он подписан)
+                $stmt = $pdo->prepare("SELECT COUNT(*) FROM subscribers WHERE subscriber_id = ?");
+                $stmt->execute([$author_id]);
+                $subscriptionsCount = $stmt->fetchColumn();
+                
+                // Проверяем, подписан ли текущий пользователь
+                $stmt = $pdo->prepare("SELECT COUNT(*) FROM subscribers WHERE subscriber_id = ? AND author_id = ?");
+                $stmt->execute([$subscriber_id, $author_id]);
+                $isSubscribed = $stmt->fetchColumn() > 0;
+                
+                ?>
+
+                    <div class="profile_card">
+                        <div class="profile_img">
+                            <!-- Используем аватар из базы данных или стандартный -->
+                            <img src="<?= htmlspecialchars($avatar) ?>" alt="">
+                        </div>
+
+                        <div class="user_name"><?= htmlspecialchars($username) ?></div>
+
+                        <div class="follow">
+                            <div class="subscriptions"><i id="subscriptions_count"><?= $subscriptionsCount ?></i> подписка</div>
+                            <div class="subscribers"><i id="subscribers_count"><?= $subscribersCount ?></i> подписчиков</div>
+                        </div>
+
+                        <?php if ($subscriber_id !== $author_id && $subscriber_id > 0) : ?>
+                            <button class="sub_button <?= $isSubscribed ? 'subscribed' : '' ?>" 
+                                    type="submit" 
+                                    id="subscribe_btn" 
+                                    data-user-id="<?= $author_id ?>">
+                                <?= $isSubscribed ? "Отписаться" : "Подписаться" ?>
+                            </button>
+                        <?php elseif ($subscriber_id === $author_id) : ?>
+                            <div class="if_own">
+                                <button class='sub_button'>Поделиться</button>
+                                <button class='sub_button' id='edit_profile'>Изменить профиль</button>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+
+
+
+                
+                <?php
+                // Получаем данные текущего пользователя
+                $user_id = $_SESSION["user_id"] ?? 0;
+
+                $stmt = $pdo->prepare("SELECT avatar FROM users WHERE user_id = ?");
+                $stmt->execute([$user_id]);
+                $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+                // Проверяем, если аватар существует, используем его, иначе стандартный
+                $avatar = !empty($user["avatar"]) ? $user["avatar"] : "../img/standart_avatar.jpg";
+                ?>
+
+                <div class="modal" id="edit_profile_modal">
+                    <div class="modal_content">
+                        <h3>Изменение профиля</h3>
+                        <p>Позаботьтесь о конфиденциальности личных данных. 
+                            Добавляемая вами информация видна всем, кто 
+                            может просматривать ваш профиль.</p>
+                                        
+                        <form id="edit_profile_form" enctype="multipart/form-data">
+                            <p class='edit_input_p'>Изменить пароль</p>
+                            <input type="password" class='input_line edit_profile_input_line' name="old_pass" placeholder='Введите старый пароль' id='old_pass'>
+                            <input type="password" class='input_line edit_profile_input_line' name="new_pass" placeholder='Введите новый пароль' id='new_pass'>
+                                        
+                            <p class='edit_input_p'>Изменить Никнейм</p>
+                            <input type="text" class='input_line edit_profile_input_line' name="new_nickname" placeholder='Введите новый никнейм' id='new_nickname'>
+                                        
+                            <div class="edit_avatar_con">
+                                <img src="<?= htmlspecialchars($avatar) ?>" alt="Аватар пользователя" class='edit_avatar_img' id='edit_avatar_img'>
+                                <input type="file" name="avatar" id="avatar_input" style="display: none;">
+                                <button type="button" class='edit_avatar_button sub_button' id='edit_avatar_button'>Изменить</button>
+                            </div>
+                                        
+                            <div class="confirm_button_edit_con">
+                                <button type="submit" class='sub_button' id='confirm_button_edit'>Сохранить</button>
+                            </div>
+                            <div class="error_con_edit" id='error_con_edit'></div>
+                        </form>
+                    </div>
+                </div>
+
 
                 
 
@@ -128,80 +215,82 @@ require 'db.php'
 
 
 
-                    <div class="own_pins profile_content">
 
-                    </div>
                 </div>
             </div>
             <div class="cards_block profile_content own_pins" id="createdContent">
 
 
 
-            <?php
+                <?php
 
-try {
-    $stmt = $pdo->prepare("
-        SELECT 
-            photos.photo_id, 
-            photos.path AS photo_path, 
-            users.user_id, 
-            users.avatar AS user_avatar, 
-            users.username 
-        FROM 
-            photos 
-        INNER JOIN 
-            users 
-        ON 
-            photos.author_id = users.user_id
-    ");
-    $stmt->execute();
+                try {
+                    $user_id = isset($_GET['user_id']) ? (int)$_GET['user_id'] : 0;
+                    if ($user_id > 0) {
+                        $stmt = $pdo->prepare("
+                            SELECT 
+                                photos.photo_id, 
+                                photos.path AS photo_path, 
+                                users.user_id, 
+                                users.avatar AS user_avatar, 
+                                users.username 
+                            FROM 
+                                photos 
+                            INNER JOIN 
+                                users 
+                            ON 
+                                photos.author_id = users.user_id
+                            WHERE 
+                                photos.author_id = :user_id
+                        ");
+                        $stmt->execute(['user_id' => $user_id]);
+                    
+                        $photos = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                    
+                        foreach ($photos as $photo) {
+                            $photoPath = "../php/" . htmlspecialchars($photo['photo_path']);
+                            $userAvatar = $photo['user_avatar'] 
+                                ? htmlspecialchars($photo['user_avatar']) 
+                                : "../img/standart_avatar.jpg";
+                            $userName = htmlspecialchars($photo['username']);
+                            $photoId = htmlspecialchars($photo['photo_id']);
+                            $userId = htmlspecialchars($photo['user_id']);
+                        
+                            echo "
+                            <div class='card'>
+                                <a href='pin.php?photo_id=$photoId'>
+                                    <img src='$photoPath' alt=''>
+                                </a>
+                                <a href='profile.php?user_id=$userId'>
+                                    <div class='author'>
+                                        <div class='author_icon'>
+                                            <img src='$userAvatar' alt=''>
+                                            <a href='profile.php?user_id=$userId'>$userName</a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            ";
+                        }
+                    }
+                } catch (PDOException $e) {
+                }
+                ?>
 
-    $photos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    if ($photos) {
-        foreach ($photos as $photo) {
-            $photoPath = "../php/" . htmlspecialchars($photo['photo_path']);
-            $userAvatar = $photo['user_avatar'] 
-                ? htmlspecialchars($photo['user_avatar']) 
-                : "../img/standart_avatar.jpg";
-            $userName = htmlspecialchars($photo['username']);
-            $photoId = htmlspecialchars($photo['photo_id']);
-            $userId = htmlspecialchars($photo['user_id']);
 
-            echo "
-            <div class='card'>
-                <a href='pin.php?photo_id=$photoId'>
-                    <img src='$photoPath' alt=''>
-                </a>
-                <a href='profile.php?user_id=$userId'>
-                    <div class='author'>
-                        <div class='author_icon'>
-                            <img src='$userAvatar' alt=''>
-                            <a href='profile.php?user_id=$userId'>$userName</a>
-                        </div>
-                    </div>
-                </a>
+
+            
+            
             </div>
-            ";
-        }
-    } else {
-        echo "";
-    }
-} catch (PDOException $e) {
-    echo "";
-}
-?>
-
-
-
-            
-            
-        </div>
     </div>
     <script src='../js/stack_img_profile.js'></script>
     <script src="../js/toggle_profile.js"></script>
     <script src="../js/onclick.js"></script>
     <script src="../js/masonary.js"></script>
     <script src="../js/setMasonary.js"></script>
+    <script src='../js/subscribe_ajax.js'></script>
+    <script src='../js/modal_edit.js'></script>
+    <script src='../js/update_edit_profile.js'></script>
 </body>
 </html>

@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             container.style.position = "relative";
             container.style.height = `${Math.max(...columnHeights)}px`;
-        },50);
+        },10);
     }
 
     // Ждём загрузки всех изображений перед построением
