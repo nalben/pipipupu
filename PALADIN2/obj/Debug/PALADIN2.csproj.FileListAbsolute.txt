@@ -1,0 +1,44 @@
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\bin\Debug\PALADIN2.exe.config
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\bin\Debug\PALADIN2.exe
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\bin\Debug\PALADIN2.pdb
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.AssemblyReference.cache
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\MainWindow.g.cs
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\App.g.cs
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2_MarkupCompile.cache
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2_MarkupCompile.lref
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\MainWindow.baml
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.g.resources
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.Properties.Resources.resources
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.GenerateResource.cache
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.CoreCompileInputs.cache
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.exe
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2.pdb
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\AddOrEdit.g.cs
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\DataGrid.g.cs
+C:\Users\Student 18\Desktop\PALADIN2\PALADIN2\obj\Debug\PALADIN2_Content.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\PALADIN2.exe.config
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\PALADIN2.exe
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\PALADIN2.pdb
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\EntityFramework.dll
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\EntityFramework.xml
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.AssemblyReference.cache
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\AddOrEdit.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\DataGrid.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\MainWindow.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\App.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2_Content.g.cs
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2_MarkupCompile.cache
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2_MarkupCompile.lref
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\AddOrEdit.baml
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\DataGrid.baml
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\MainWindow.baml
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.g.resources
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.Properties.Resources.resources
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.GenerateResource.cache
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.CoreCompileInputs.cache
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.csproj.Up2Date
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.exe
+C:\Users\Student 18\Desktop\super finale 08.04.2025\PALADIN2\PALADIN2\obj\Debug\PALADIN2.pdb

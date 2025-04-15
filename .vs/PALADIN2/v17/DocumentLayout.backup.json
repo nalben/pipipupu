@@ -1,0 +1,382 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|c:\\users\\student 18\\desktop\\super finale 08.04.2025\\paladin2\\paladin2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\interfaces\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\interfaces\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\logic\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\logic\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\classes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\interfaces\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\interfaces\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\logic\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\logic\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\db_context\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\db_context\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\addoredit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\addoredit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\paladin2\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7BF012F1-7BDD-4295-BEFF-4F0E298A68E0}|PALADIN2\\PALADIN2.csproj|solutionrelative:paladin2\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "auth_logic.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\interfaces\\auth_logic.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\interfaces\\auth_logic.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\interfaces\\auth_logic.cs",
+              "RelativeToolTip": "PALADIN2\\interfaces\\auth_logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:13:06.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Auth_logic.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Auth_logic.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\logic\\Auth_logic.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Auth_logic.cs",
+              "RelativeToolTip": "PALADIN2\\logic\\Auth_logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:15:42.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PALADIN2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:03:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.Context.cs",
+              "RelativeToolTip": "PALADIN2\\db_context\\Model1.Context.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:29:26.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.Designer.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.Designer.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.Designer.cs",
+              "RelativeToolTip": "PALADIN2\\db_context\\Model1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:29:19.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Product.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\logic\\Product.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Product.cs",
+              "RelativeToolTip": "PALADIN2\\logic\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:15:30.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "role.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\classes\\role.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\classes\\role.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\classes\\role.cs",
+              "RelativeToolTip": "PALADIN2\\classes\\role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:07:40.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PALADIN2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\MainWindow.xaml",
+              "RelativeToolTip": "PALADIN2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T13:03:35.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\App.config",
+              "RelativeDocumentMoniker": "PALADIN2\\App.config",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\App.config",
+              "RelativeToolTip": "PALADIN2\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-10T13:29:45.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\classes\\users.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\classes\\users.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\classes\\users.cs",
+              "RelativeToolTip": "PALADIN2\\classes\\users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:07:32.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "product.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\interfaces\\product.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\interfaces\\product.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\interfaces\\product.cs",
+              "RelativeToolTip": "PALADIN2\\interfaces\\product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:12:33.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Roles.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\logic\\Roles.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\logic\\Roles.cs",
+              "RelativeToolTip": "PALADIN2\\logic\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:15:47.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "products.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\products.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\products.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\products.cs",
+              "RelativeToolTip": "PALADIN2\\db_context\\products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:18:50.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.edmx",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\PALADIN2\\PALADIN2\\db_context\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\PALADIN2\\PALADIN2\\db_context\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-04-10T13:29:06.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.tt",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.tt",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.tt",
+              "RelativeToolTip": "PALADIN2\\db_context\\Model1.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-10T13:29:10.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Model1.edmx.diagram",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.edmx.diagram",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.edmx.diagram",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.edmx.diagram",
+              "RelativeToolTip": "PALADIN2\\db_context\\Model1.edmx.diagram",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-10T13:29:14.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.cs",
+              "RelativeDocumentMoniker": "PALADIN2\\db_context\\Model1.cs",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\db_context\\Model1.cs",
+              "RelativeToolTip": "PALADIN2\\db_context\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:29:22.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\App.xaml",
+              "RelativeDocumentMoniker": "PALADIN2\\App.xaml",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\App.xaml",
+              "RelativeToolTip": "PALADIN2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T13:29:52.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddOrEdit.xaml",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\AddOrEdit.xaml",
+              "RelativeDocumentMoniker": "PALADIN2\\AddOrEdit.xaml",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\AddOrEdit.xaml",
+              "RelativeToolTip": "PALADIN2\\AddOrEdit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T13:04:54.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataGrid.xaml",
+              "DocumentMoniker": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\DataGrid.xaml",
+              "RelativeDocumentMoniker": "PALADIN2\\DataGrid.xaml",
+              "ToolTip": "C:\\Users\\Student 18\\Desktop\\super finale 08.04.2025\\PALADIN2\\PALADIN2\\DataGrid.xaml",
+              "RelativeToolTip": "PALADIN2\\DataGrid.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-10T13:04:35.417Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 67,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
