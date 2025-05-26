@@ -1,0 +1,31 @@
+﻿<Window x:Class="DIABLO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DIABLO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"></ColumnDefinition>
+            <ColumnDefinition Width="327*"></ColumnDefinition>
+            <ColumnDefinition Width="30*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tbxLog" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Height="60" Width="318"/>
+        <TextBox x:Name="tbxPass" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="61" Width="318" Margin="0,33,0,0" Grid.RowSpan="2" TextChanged="tbxPass_TextChanged"/>
+        <Button Grid.Column="1" Content="Войти" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Height="60" Width="318" Click="Button_Click"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318"><Run Language="ru-ru" Text="Логин"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,8,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" Height="16"><Run Language="ru-ru" Text="Пароль"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+
+    </Grid>
+</Window>

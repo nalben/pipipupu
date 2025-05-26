@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="52fa7202afb946cf9a64750942771580" Name="Diagram1">
+        <EntityTypeShape EntityType="DIABLO666Model.Roles" Width="1.5" PointX="2.125" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DIABLO666Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DIABLO666Model.Users" Width="1.5" PointX="5" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="DIABLO666Model.FK__Users__User_Role__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

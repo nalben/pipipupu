@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\potor\\source\\repos\\DIABLO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|c:\\users\\potor\\source\\repos\\diablo\\diablo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|C:\\Users\\potor\\source\\repos\\DIABLO\\diablo\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\datagrid.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|C:\\Users\\potor\\source\\repos\\DIABLO\\diablo\\classes\\user_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\classes\\user_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|C:\\Users\\potor\\source\\repos\\DIABLO\\diablo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|C:\\Users\\potor\\source\\repos\\DIABLO\\diablo\\interfaces\\auth_interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\interfaces\\auth_interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|C:\\Users\\potor\\source\\repos\\DIABLO\\diablo\\logic\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC35B71-AE29-4322-89E8-A1EC06BD85CA}|DIABLO\\DIABLO.csproj|solutionrelative:diablo\\logic\\auth_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Auth_logic.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\logic\\Auth_logic.cs",
+              "RelativeDocumentMoniker": "DIABLO\\logic\\Auth_logic.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\logic\\Auth_logic.cs",
+              "RelativeToolTip": "DIABLO\\logic\\Auth_logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:45:55.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Auth_interface.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\interfaces\\Auth_interface.cs",
+              "RelativeDocumentMoniker": "DIABLO\\interfaces\\Auth_interface.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\interfaces\\Auth_interface.cs",
+              "RelativeToolTip": "DIABLO\\interfaces\\Auth_interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:43:19.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User_class.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\classes\\User_class.cs",
+              "RelativeDocumentMoniker": "DIABLO\\classes\\User_class.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\classes\\User_class.cs",
+              "RelativeToolTip": "DIABLO\\classes\\User_class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:34:19.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataGrid.xaml",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\DataGrid.xaml",
+              "RelativeDocumentMoniker": "DIABLO\\DataGrid.xaml",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\DataGrid.xaml",
+              "RelativeToolTip": "DIABLO\\DataGrid.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T16:09:14.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DIABLO\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\MainWindow.xaml",
+              "RelativeToolTip": "DIABLO\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-26T15:48:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DIABLO\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\potor\\source\\repos\\DIABLO\\DIABLO\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DIABLO\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T15:48:01.046Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
